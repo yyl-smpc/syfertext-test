@@ -31,5 +31,5 @@ python setup.py install
 ---
 
 ```
-python syfertext-test.py
+python main.py
 ```
