@@ -21,11 +21,11 @@ from syft.grid.private_grid import PrivateGridNetwork
 # Create a torch hook for PySyft
 hook = sy.TorchHook(th)
 # Create some PySyft workers
-me = hook.local_worker # This is the worker representing the deep learning company
-bob = sy.VirtualWorker(hook, id = 'bob') # Bob owns the first dataset
-alice = sy.VirtualWorker(hook, id = 'alice') # Alice owns the second dataset
+me = DataCentricFLClient(hook,'http://localhost:3003','james') # This is the worker representing the deep learning company
+bob = DataCentricFLClient(hook, 'http://localhost:3000','bob') # Bob owns the first dataset
+alice = DataCentricFLClient(hook, 'http://localhost:3001','alice') # Alice owns the second dataset
 
-crypto_provider = sy.VirtualWorker(hook, id = 'crypto_provider') # provides encryption primitive for SMPC
+crypto_provider = DataCentricFLClient(hook, 'http://localhost:3002','crypto_provider') # provides encryption primitive for SMPC
 my_grid = PrivateGridNetwork(me, bob, alice, crypto_provider)
 # Set the path to the dataset file
 dataset_path = './data/train.csv'
