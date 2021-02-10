@@ -11,7 +11,7 @@
 ---
 ### 1.1激活pysyft环境
 ```
-conda activate pysyft
+conda activate syft-test
 ```
 
 ### 1.2克隆syfertext
@@ -23,6 +23,7 @@ git clone git@github.com:OpenMined/SyferText.git
 ### 1.4切换分支并安装
 
 ```
+pip install git+git://github.com/Nilanshrajput/syfertext_en_core_web_lg@master
 git checkout update_additive_sharing
 python setup.py install
 ```
