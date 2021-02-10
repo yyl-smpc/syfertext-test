@@ -31,6 +31,8 @@ python setup.py install
 ## 启动测试代码
 ---
 
+进入syfer-test目录
+
 ```
 pip install -r requirement.txt
 python main.py
