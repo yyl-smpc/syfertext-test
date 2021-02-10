@@ -32,5 +32,6 @@ python setup.py install
 ---
 
 ```
+pip install -r requirement.txt
 python main.py
 ```
