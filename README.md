@@ -23,6 +23,7 @@ git clone git@github.com:OpenMined/SyferText.git
 ### 1.4切换分支并安装
 
 ```
+pip install git+git://github.com/Nilanshrajput/syfertext_en_core_web_lg@master
 git checkout update_additive_sharing
 python setup.py install
 ```
@@ -30,6 +31,9 @@ python setup.py install
 ## 启动测试代码
 ---
 
+进入syfer-test目录
+
 ```
+pip install -r requirement.txt
 python main.py
 ```
