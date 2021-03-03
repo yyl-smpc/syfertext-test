@@ -11,7 +11,7 @@
 ---
 ### 1.1激活pysyft环境
 ```
-conda activate pysyft
+conda activate syft-test
 ```
 
 ### 1.2克隆syfertext
