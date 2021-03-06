@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="99152d33-df73-4a86-96a0-1796df73fad5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/problem.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="virtual" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://E:/anconda/envs/syft-test/Lib/site-packages/syft/generic/string.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/anconda/envs/syft-test/Lib/site-packages/syft/workers/virtual.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/anconda/envs/syft-test/Lib/site-packages/websocket/_socket.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/anconda/envs/syft-test/Lib/site-packages/syft/workers/websocket_client.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://E:/anconda/envs/syft-test/Lib/site-packages/syft/workers/base.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="ProjectId" id="1pCcUVybfH9E8ssH40vHWfgxR0b" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs.jest.jest_package" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="syfertext-test" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="99152d33-df73-4a86-96a0-1796df73fad5" name="Default Changelist" comment="" />
+      <created>1614690529427</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614690529427</updated>
+      <workItem from="1614690530710" duration="2159000" />
+      <workItem from="1614733789177" duration="595000" />
+      <workItem from="1614738509127" duration="1042000" />
+      <workItem from="1614740220829" duration="444000" />
+      <workItem from="1614740710460" duration="1874000" />
+      <workItem from="1614747772910" duration="8009000" />
+      <workItem from="1614757571837" duration="5602000" />
+      <workItem from="1614766541482" duration="8895000" />
+      <workItem from="1614776453358" duration="2271000" />
+      <workItem from="1614782237256" duration="7449000" />
+      <workItem from="1614790138802" duration="2328000" />
+      <workItem from="1614792922899" duration="1112000" />
+      <workItem from="1614826319557" duration="1057000" />
+      <workItem from="1614827597925" duration="128000" />
+      <workItem from="1614827836781" duration="4607000" />
+      <workItem from="1614832633922" duration="3264000" />
+      <workItem from="1614836295393" duration="8671000" />
+      <workItem from="1614845403295" duration="18000" />
+      <workItem from="1614845863162" duration="739000" />
+      <workItem from="1614853985427" duration="599000" />
+      <workItem from="1615030046001" duration="1498000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://E:/anconda/envs/syft-test/Lib/site-packages/websocket/_core.py</url>
+          <line>408</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>jar://E:/anconda/envs/syft-test/Lib/site-packages/syfertext-0.0.1-py3.7.egg!/syfertext/pointers/doc_pointer.py</url>
+          <line>99</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>jar://E:/anconda/envs/syft-test/Lib/site-packages/syfertext-0.0.1-py3.7.egg!/syfertext/pointers/doc_pointer.py</url>
+          <line>119</line>
+          <option name="timeStamp" value="79" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>jar://E:/anconda/envs/syft-test/Lib/site-packages/syfertext-0.0.1-py3.7.egg!/syfertext/pointers/doc_pointer.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="80" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>jar://E:/anconda/envs/syft-test/Lib/site-packages/syfertext-0.0.1-py3.7.egg!/syfertext/pointers/doc_pointer.py</url>
+          <line>102</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/syfertext_test$main.coverage" NAME="main Coverage Results" MODIFIED="1615031484870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

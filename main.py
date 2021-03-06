@@ -17,11 +17,12 @@ import torch.optim as optim
 import csv
 from sklearn.model_selection import train_test_split
 from syft.grid.clients.data_centric_fl_client import DataCentricFLClient
+from syft.workers.virtual import VirtualWorker
 from syft.grid.private_grid import PrivateGridNetwork
 # Create a torch hook for PySyft
 hook = sy.TorchHook(th)
 # Create some PySyft workers
-me = DataCentricFLClient(hook,'http://localhost:3003','james') # This is the worker representing the deep learning company
+me = DataCentricFLClient(hook, 'http://localhost:3003','bob')# This is the worker representing the deep learning company
 bob = DataCentricFLClient(hook, 'http://localhost:3000','bob') # Bob owns the first dataset
 alice = DataCentricFLClient(hook, 'http://localhost:3001','alice') # Alice owns the second dataset
 
@@ -29,14 +30,12 @@ crypto_provider = DataCentricFLClient(hook, 'http://localhost:3002','crypto_prov
 my_grid = PrivateGridNetwork(me, bob, alice, crypto_provider)
 # Set the path to the dataset file
 dataset_path = './data/train.csv'
-
 # store the dataset as a list of dictionaries
 # each dictionary has two keys, 'text' and 'label'
 # the 'text' element is a PySyft String
 # the 'label' element is an integer with 1 for each surgical specialty and a 0 otherwise
 dataset_local = []
-
-with open(dataset_path, 'r',encoding='UTF-8') as dataset_file:
+with open(dataset_path, 'r', encoding='UTF-8') as dataset_file:
     # Create a csv reader object
     reader = csv.DictReader(dataset_file)
     for elem in reader:
@@ -181,7 +180,6 @@ class DatasetMTS(Dataset):
 
         # get the example
         example = self.dataset[index]
-
         # Run the preprocessing pipeline on
         # the transcription text and get a DocPointer object
         doc_ptr = self.nlp(example['text'])
