@@ -65,7 +65,7 @@ python setup.py install
 此处的example['text]及StringPointer类型的值，传递给syfertext库的nlp函数，nlp函数创建pipe并将StringPointer用
 websocket发送给node节点，在发送此指针后，websocket就异常关闭导致1中的错误，以下为函数调用链
 
-##### 图1 syftetxt language
+##### 图1 syfertext language
 
 ![](./language_call.png)
 
