@@ -53,6 +53,7 @@ git checkout dev
 - 进入pygrid文件夹,双击就可以启动了,三个文件每个文件启动一次,每个文件对应一个node
 
 流程如下
+***
 
 复制bat
 
@@ -68,6 +69,7 @@ git checkout dev
 note: 用pycharm去直接运行node,可能回出现内存不足的情况,反正我8g内存是爆炸了的
 
 运行效果如下
+***
 
 刚启动时
 
