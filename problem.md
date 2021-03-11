@@ -52,7 +52,7 @@ python setup.py install
 测试用的代码即本源码的real分支中的main.py
 
 ### 1.出现的错误
-![img](./error.png)
+![img](static/img/error.png)
 
 ### 2.debug的尝试和猜测
 
@@ -60,26 +60,26 @@ python setup.py install
 
 错误出现在main.py代码的第185行
 
-![](./main.png)
+![](static/img/main.png)
 
 此处的example['text]及StringPointer类型的值，传递给syfertext库的nlp函数，nlp函数创建pipe并将StringPointer用
 websocket发送给node节点，在发送此指针后，websocket就异常关闭导致1中的错误，以下为函数调用链
 
 ##### 图1 syfertext language
 
-![](./language_call.png)
+![](static/img/language_call.png)
 
 ##### 图2 创建pipe并发送StringPointer
 
-![](./pipe.png)
+![](static/img/pipe.png)
 
 ##### 图3 用应用层的websocket客户端发送数据
 
-![](./websocket_client.png)
+![](static/img/websocket_client.png)
 
 ##### 图4 用传输层的tcp套接字发送字节流
 
-![](./core.png)
+![](static/img/core.png)
 
 #### 2.2问题分析
 

@@ -19,16 +19,13 @@ from sklearn.model_selection import train_test_split
 from syft.grid.clients.data_centric_fl_client import DataCentricFLClient
 from syft.workers.virtual import VirtualWorker
 from syft.grid.private_grid import PrivateGridNetwork
-# Create a torch hook for PySyft
-hook = sy.TorchHook(th)
-# Create some PySyft workers
-me = DataCentricFLClient(hook, 'http://localhost:3003','bob')# This is the worker representing the deep learning company
-bob = DataCentricFLClient(hook, 'http://localhost:3000','bob') # Bob owns the first dataset
-alice = DataCentricFLClient(hook, 'http://localhost:3001','alice') # Alice owns the second dataset
 
-crypto_provider = DataCentricFLClient(hook, 'http://localhost:3002','crypto_provider') # provides encryption primitive for SMPC
-my_grid = PrivateGridNetwork(me, bob, alice, crypto_provider)
-# Set the path to the dataset file
+hook = sy.TorchHook(th)
+me = hook.local_worker
+bob = DataCentricFLClient(hook, 'http://127.0.0.1:5001','Bob', is_client_worker=True) # Bob owns the first dataset
+alice = DataCentricFLClient(hook, 'http://alice:5000','Alice', is_client_worker=True) # Alice owns the second dataset
+crypto_provider = DataCentricFLClient(hook, 'http://charlie:5002','Charlie', is_client_worker=True) # provides encryption primitive for SMPC
+PrivateGridNetwork(bob,alice,crypto_provider)
 dataset_path = './data/train.csv'
 # store the dataset as a list of dictionaries
 # each dictionary has two keys, 'text' and 'label'
